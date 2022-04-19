@@ -7,7 +7,8 @@
 
 body {
   font-family:'Open Sans', sans-serif;
-  background: #1d539e;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1d539e 0%, #1d539e 50%, #f9fbfc 50%, #f9fbfc 100%);
 }
 
 h1 {
