@@ -1,0 +1,35 @@
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #f9fbfc;
+}
+
+body {
+  font-family:'Open Sans', sans-serif;
+  background: #1d539e;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.5px;
+}
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+  0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+.card {
+  width: 355px;
+  height: 470px;
+  border: none;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 100px !important;
+}
