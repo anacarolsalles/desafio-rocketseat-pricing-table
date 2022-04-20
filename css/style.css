@@ -15,6 +15,71 @@ h1 {
   font-weight: 700;
 }
 
+.list-center {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 35px;
+  color: #828799;
+}
+
+.list{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  color: #828799;
+}
+
+.card-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828799
+}
+
+.card-header {
+  height: 76px;
+  background: #FFCC29;
+  padding: 25px 30px;
+}
+
+.card-header-simple {
+  height: 76px;
+  background: transparent;
+  padding: 25px 30px;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: transparent;
+  border: none;
+  padding: 30px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.text-price {
+  color: #828799;
+  font-weight: 400;
+}
+
+.title-cards{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.title-basic{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1D539E;
+}
+
 .subtitle {
   font-weight: 400;
   font-size: 18px;
@@ -26,11 +91,72 @@ h1 {
 }
 
 .card {
-  width: 355px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+
   height: 470px;
+  border: none;
+}
+
+.card-center {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  flex-direction: column;
+  background-color: #fff;
+
+  height: 490px;
   border: none;
 }
 
 .mb-5, .my-5 {
   margin-bottom: 100px !important;
+}
+
+
+.rounded {
+  border-radius: .75rem !important;
+}
+
+.badge {
+  width: 94px;  
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  background: #1D539E;
+  }
+
+.btn-primary {
+  background: #1D539E;
+  border: #1d539e;
+}
+
+.btn-outline-primary {
+  color: #1D539E;
+  border-color: #1D539E;
+}
+
+::marker {
+  color: #59CE9F;
+  content: '✔   ';  
+
+}
+
+.card-header:first-child {
+  border-radius: 12px 12px 0px 0px;
+}
+
+@media (max-width:991px) {
+  .card {
+    width: 355px;
+  }
+  .card-center{
+    width: 355px;
+
+  }
+}
+@media (min-width:992px) and (max-width:1199px) {
+ .list-center{
+   font-size: 14px;
+ }
 }
